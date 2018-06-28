@@ -1,0 +1,8 @@
+[package]
+name = "accelerometer-linux"
+version = "0.1.0"
+authors = ["Alex Yang <aleozlx@gmail.com>"]
+
+[dependencies]
+[profile.release]
+lto = true
